@@ -231,6 +231,7 @@ header {
 
   .just-block {
     display: flex;
+    flex-wrap: wrap;
   }
 
   .div-biv {
@@ -239,8 +240,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 350px;
-    height: 455px;
+    margin: 35px;
     img {
       width: 200px;
       height: 225px;

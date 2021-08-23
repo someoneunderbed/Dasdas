@@ -248,6 +248,8 @@ header .text-section button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .selection-only .div-biv {
@@ -266,8 +268,7 @@ header .text-section button {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 350px;
-  height: 455px;
+  margin: 35px;
 }
 
 .selection-only .div-biv img {
