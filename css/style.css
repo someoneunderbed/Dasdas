@@ -1,0 +1,432 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+* h1 {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-image: url(../images/Rectangle.png);
+  background-size: 100% 100%;
+}
+
+header .header-section {
+  padding: 26px 0;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .header-section .nav-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-section .logo-name {
+  margin: 0;
+  padding-right: 250px;
+  color: #5326d4;
+}
+
+header .header-section .nav-menu-list {
+  max-width: 400px;
+  width: 100%;
+}
+
+header .header-section .nav-menu-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-section .nav-menu-list li {
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+}
+
+header .header-section .nav-menu-list a {
+  margin: 0 15px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #5326d4;
+}
+
+header .header-img img {
+  width: 30px;
+  margin: 0 8px;
+}
+
+header .text-section {
+  margin-top: 128px;
+  text-align: center;
+}
+
+header .text-section h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 62px;
+  line-height: 70px;
+  letter-spacing: 4.38641px;
+  color: #ffffff;
+}
+
+header .text-section p {
+  margin-top: 25px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+header .text-section button {
+  margin-top: 27px;
+  margin-bottom: 238px;
+  padding: 13px 34px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  text-align: center;
+  color: #4144bf;
+}
+
+header .text-section button {
+  background: #ffffff;
+  border: 3px solid #4144bf;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.long-rectangle img {
+  width: 100%;
+}
+
+.selection-only {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.selection-only h2 {
+  margin-top: 32px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 1.31592px;
+  color: #172345;
+}
+
+.selection-only .parag-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.selection-only .parag-block p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 2.08354px;
+  text-transform: uppercase;
+  color: #172345;
+  margin: 6px 25px;
+}
+
+.selection-only .parag-block p:nth-child(1):after {
+  background: url(../images/line.png);
+  content: "";
+  background-size: 100% 100%;
+  display: inline-block;
+  /*size of your image*/
+  height: 15px;
+  width: 5px;
+  /*if you want to change the position you can use margins or:*/
+  position: relative;
+  left: 25px;
+}
+
+.selection-only .parag-block p:nth-child(2):after {
+  background: url(../images/line.png);
+  content: "";
+  background-size: 100% 100%;
+  display: inline-block;
+  /*size of your image*/
+  height: 15px;
+  width: 5px;
+  /*if you want to change the position you can use margins or:*/
+  position: relative;
+  left: 25px;
+}
+
+.selection-only .section-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.selection-only .name-btn {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.selection-only .name-btn h3 {
+  margin-left: 51px;
+  width: 108px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 33px;
+  letter-spacing: 1.31592px;
+  color: #172345;
+}
+
+.selection-only .name-btn button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 31px;
+  text-align: center;
+  color: #4144bf;
+}
+
+.selection-only .name-btn button {
+  background: #ffffff;
+  border: 3px solid #4144bf;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  padding: 13px 23px 12px 24px;
+  margin: 19px 0 0 30px;
+}
+
+.selection-only .just-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.selection-only .div-biv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 350px;
+  height: 455px;
+}
+
+.selection-only .div-biv img {
+  width: 200px;
+  height: 225px;
+}
+
+.selection-only .div-biv h1 {
+  margin-top: 22px;
+  width: 240px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+  color: #000000;
+}
+
+.selection-only .div-biv strong {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.selection-only .div-biv strong::before {
+  content: "$ ";
+}
+
+.selection-only .server-things {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.selection-only .server-things .div-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 350px;
+  height: 455px;
+  margin: 0 15px;
+}
+
+.selection-only .server-things .div-div img {
+  width: 200px;
+  height: 200px;
+}
+
+.selection-only .server-things .div-div h1 {
+  margin-top: 22px;
+  width: 240px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+  color: #000000;
+}
+
+.selection-only .server-things .div-div strong {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.selection-only .server-things .div-div strong::before {
+  content: "$ ";
+}
+
+.last-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.last-one .div-ziv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 12px 15px;
+}
+
+.last-one img {
+  width: 150px;
+  height: 112px;
+}
+
+.last-one h1 {
+  margin-top: 22px;
+  width: 200px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+  color: #000000;
+  text-align: left;
+}
+
+.last-one strong {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.last-one strong::before {
+  content: "$ ";
+}
+/*# sourceMappingURL=style.css.map */
