@@ -40,3 +40,33 @@ xml.onload = function () {
   } else console.error("404 not found");
 };
 xml.send();
+
+gsap.from(".gsap-txt", {
+  opacity: 0,
+  duration: 2.7,
+  y: -1000,
+});
+gsap.from(".gsap-txt1", {
+  opacity: 0,
+  duration: 1.8,
+  x: -1000,
+  delay: 1,
+});
+
+gsap.from(".btn-gsap", {
+  opacity: 0,
+  duration: 2.7,
+  y: -1000,
+});
+gsap.from(".txtfor-gsap", {
+  opacity: 0,
+  duration: 2,
+  stagger: -1.5,
+  y: -75,
+});
+gsap.from(".name-btn", {
+  stagger: -1.5,
+  opacity: 0,
+  duration: 2,
+  x: -75,
+});
